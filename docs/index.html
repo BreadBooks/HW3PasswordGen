@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Html Stuff-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <!--App Content-->
+    <div class="container">
+        <h1 class="title">Password Generator</h1>
+        <h3 class="password-display" id="passwordDisplay">password</h3>
+        <form id="passwordGeneratorForm" class="form">
+            <label for="charAmountNumber">Number Of Chars</label>
+            <div class="charamountcontainer">
+                <input type="range" min="1" max="50" value="10" id="charAmountRange">
+                <input class="number-input" type="number" min="1" max="50" value="10" id="charAmountNumber">
+            </div>
+
+            <label for="includeUppercase">Have Uppercase Letters</label>
+            <input type="checkbox" id="Uppercase">
+
+            <label for="includeNumbers">Have Numbers</label>
+            <input type="checkbox" id="Numbers">
+
+            <label for="includeSymbols">Have Symbols</label>
+            <input type="checkbox" id="Symbols">
+
+            <button type="submit" class="button">Generate Password</button>
+        </form>
+    </div>
+</body>
+<script src="script.js" defer></script>
+
+</html>

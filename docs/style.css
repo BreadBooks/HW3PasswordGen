@@ -1,0 +1,104 @@
+    /*the best part:<*/
+    
+    body {
+        background-image: url(https://cdn.wallpapersafari.com/58/83/UQlm8p.png);
+        margin: 0;
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .container {
+        background-color: rgb(253, 192, 255);
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /*not suppose to do this, may not run right on certain browsers*/
+    
+    input[type="range"] {
+        -webkit-appearance: none;
+        background-color: transparent;
+        border-radius: .5rem;
+        height: 1.2rem;
+    }
+    /*not suppose to do this, may not run right on certain browsers*/
+    
+    input[type="range"]::-webkit-slider-runnable-track {
+        -webkit-appearance: none;
+        appearance: none;
+        height: 3px;
+        background: rgb(209, 124, 235);
+    }
+    /*not suppose to do this, may not run right on certain browsers*/
+    
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        border: 2px solid black;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        position: relative;
+        bottom: 8px;
+        background: #222 background-size: 50%;
+        box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    }
+    
+    .form {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 1rem;
+        column-gap: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title {
+        margin: 0;
+        text-align: center;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    .charamountcontainer {
+        display: flex;
+        align-items: center;
+    }
+    
+    .number-input {
+        width: 2rem;
+    }
+    
+    .password-display {
+        background-color: white;
+        color: pink;
+        padding: 1rem;
+        height: 2rem;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        word-break: break-all;
+    }
+    
+    .button {
+        grid-column: span 2;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: .5rem 1rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .button:hover {
+        background-color: #FFFFFF33;
+    }
