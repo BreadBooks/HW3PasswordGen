@@ -6,3 +6,5 @@
 *[Link!](https://codemenatalie.com/blog/classy-slider-with-pure-css/)*
 
 ![](/assets/Screenshot_5.png)
+
+[View the password generator in action!](https://breadbooks.github.io/PasswordGen/)
